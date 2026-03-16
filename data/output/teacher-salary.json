@@ -1,0 +1,468 @@
+{
+  "metadata": {
+    "sources": [
+      "Kentucky Department of Education, Average Classroom Teacher Salaries",
+      "NEA Rankings & Estimates (fallback)"
+    ],
+    "inflation_base_year": 2024,
+    "hours_basis": 1402,
+    "hours_note": "187 contract days x 7.5 hrs/day. Real hours worked are significantly higher (planning, grading, etc.)."
+  },
+  "current_year": {
+    "school_year": "2023-2024",
+    "nominal": 53947,
+    "adjusted": 53947,
+    "hourly_rate": 38.48,
+    "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries"
+  },
+  "by_grad_year": {
+    "1970": {
+      "school_year": "1969-1970",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1971": {
+      "school_year": "1970-1971",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1972": {
+      "school_year": "1971-1972",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1973": {
+      "school_year": "1972-1973",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1974": {
+      "school_year": "1973-1974",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1975": {
+      "school_year": "1974-1975",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1976": {
+      "school_year": "1975-1976",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1977": {
+      "school_year": "1976-1977",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1978": {
+      "school_year": "1977-1978",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1979": {
+      "school_year": "1978-1979",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1980": {
+      "school_year": "1979-1980",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1981": {
+      "school_year": "1980-1981",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1982": {
+      "school_year": "1981-1982",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1983": {
+      "school_year": "1982-1983",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1984": {
+      "school_year": "1983-1984",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1985": {
+      "school_year": "1984-1985",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1986": {
+      "school_year": "1985-1986",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1987": {
+      "school_year": "1986-1987",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": null,
+      "data_available": false
+    },
+    "1988": {
+      "school_year": "1987-1988",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": "NCES CCD via Urban Institute",
+      "data_available": false
+    },
+    "1989": {
+      "school_year": "1988-1989",
+      "nominal": null,
+      "adjusted": null,
+      "hourly_rate": null,
+      "source": "NCES CCD via Urban Institute",
+      "data_available": false
+    },
+    "1990": {
+      "school_year": "1989-1990",
+      "nominal": 25385,
+      "adjusted": 59878,
+      "hourly_rate": 42.71,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "1991": {
+      "school_year": "1990-1991",
+      "nominal": 28136,
+      "adjusted": 64395,
+      "hourly_rate": 45.93,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "1992": {
+      "school_year": "1991-1992",
+      "nominal": 29895,
+      "adjusted": 66489,
+      "hourly_rate": 47.42,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "1993": {
+      "school_year": "1992-1993",
+      "nominal": 30201,
+      "adjusted": 65373,
+      "hourly_rate": 46.63,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "1994": {
+      "school_year": "1993-1994",
+      "nominal": 30718,
+      "adjusted": 64760,
+      "hourly_rate": 46.19,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "1995": {
+      "school_year": "1994-1995",
+      "nominal": 31459,
+      "adjusted": 64683,
+      "hourly_rate": 46.14,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "1996": {
+      "school_year": "1995-1996",
+      "nominal": 32008,
+      "adjusted": 63693,
+      "hourly_rate": 45.43,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "1997": {
+      "school_year": "1996-1997",
+      "nominal": 32948,
+      "adjusted": 64466,
+      "hourly_rate": 45.98,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "1998": {
+      "school_year": "1997-1998",
+      "nominal": 33491,
+      "adjusted": 64490,
+      "hourly_rate": 46.0,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "1999": {
+      "school_year": "1998-1999",
+      "nominal": 34397,
+      "adjusted": 64505,
+      "hourly_rate": 46.01,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2000": {
+      "school_year": "1999-2000",
+      "nominal": 35173,
+      "adjusted": 63797,
+      "hourly_rate": 45.5,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2001": {
+      "school_year": "2000-2001",
+      "nominal": 36002,
+      "adjusted": 64303,
+      "hourly_rate": 45.87,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2002": {
+      "school_year": "2001-2002",
+      "nominal": 37020,
+      "adjusted": 64585,
+      "hourly_rate": 46.07,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2003": {
+      "school_year": "2002-2003",
+      "nominal": 37953,
+      "adjusted": 64995,
+      "hourly_rate": 46.36,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2004": {
+      "school_year": "2003-2004",
+      "nominal": 39217,
+      "adjusted": 65041,
+      "hourly_rate": 46.39,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2005": {
+      "school_year": "2004-2005",
+      "nominal": 40463,
+      "adjusted": 64891,
+      "hourly_rate": 46.28,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2006": {
+      "school_year": "2005-2006",
+      "nominal": 41693,
+      "adjusted": 65204,
+      "hourly_rate": 46.51,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2007": {
+      "school_year": "2006-2007",
+      "nominal": 42716,
+      "adjusted": 64185,
+      "hourly_rate": 45.78,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2008": {
+      "school_year": "2007-2008",
+      "nominal": 46417,
+      "adjusted": 69686,
+      "hourly_rate": 49.7,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2009": {
+      "school_year": "2008-2009",
+      "nominal": 47007,
+      "adjusted": 68701,
+      "hourly_rate": 49.0,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2010": {
+      "school_year": "2009-2010",
+      "nominal": 47617,
+      "adjusted": 68564,
+      "hourly_rate": 48.9,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2011": {
+      "school_year": "2010-2011",
+      "nominal": 47000,
+      "adjusted": 65730,
+      "hourly_rate": 46.88,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2012": {
+      "school_year": "2011-2012",
+      "nominal": 47266,
+      "adjusted": 64972,
+      "hourly_rate": 46.34,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2013": {
+      "school_year": "2012-2013",
+      "nominal": 47537,
+      "adjusted": 64375,
+      "hourly_rate": 45.92,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2014": {
+      "school_year": "2013-2014",
+      "nominal": 47839,
+      "adjusted": 64300,
+      "hourly_rate": 45.86,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2015": {
+      "school_year": "2014-2015",
+      "nominal": 48385,
+      "adjusted": 64560,
+      "hourly_rate": 46.05,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2016": {
+      "school_year": "2015-2016",
+      "nominal": 49253,
+      "adjusted": 64384,
+      "hourly_rate": 45.92,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2017": {
+      "school_year": "2016-2017",
+      "nominal": 49351,
+      "adjusted": 63179,
+      "hourly_rate": 45.06,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2018": {
+      "school_year": "2017-2018",
+      "nominal": 49650,
+      "adjusted": 62370,
+      "hourly_rate": 44.49,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2019": {
+      "school_year": "2018-2019",
+      "nominal": 49936,
+      "adjusted": 61331,
+      "hourly_rate": 43.75,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2020": {
+      "school_year": "2019-2020",
+      "nominal": 50308,
+      "adjusted": 60958,
+      "hourly_rate": 43.48,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2021": {
+      "school_year": "2020-2021",
+      "nominal": 51122,
+      "adjusted": 57870,
+      "hourly_rate": 41.28,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2022": {
+      "school_year": "2021-2022",
+      "nominal": 51533,
+      "adjusted": 54800,
+      "hourly_rate": 39.09,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2023": {
+      "school_year": "2022-2023",
+      "nominal": 52838,
+      "adjusted": 54365,
+      "hourly_rate": 38.78,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2024": {
+      "school_year": "2023-2024",
+      "nominal": 53947,
+      "adjusted": 53947,
+      "hourly_rate": 38.48,
+      "source": "NCES CCD via Urban Institute; KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    },
+    "2025": {
+      "school_year": "2024-2025",
+      "nominal": 56153,
+      "adjusted": 54687,
+      "hourly_rate": 39.01,
+      "source": "KDE Average Classroom Teacher Salaries",
+      "data_available": true
+    }
+  }
+}

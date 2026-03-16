@@ -1,0 +1,710 @@
+[
+  {
+    "leaid": "2100030",
+    "name": "Adair County"
+  },
+  {
+    "leaid": "2100070",
+    "name": "Allen County"
+  },
+  {
+    "leaid": "2100090",
+    "name": "Anchorage Independent"
+  },
+  {
+    "leaid": "2100120",
+    "name": "Anderson County"
+  },
+  {
+    "leaid": "2100150",
+    "name": "Ashland Independent"
+  },
+  {
+    "leaid": "2100180",
+    "name": "Augusta Independent"
+  },
+  {
+    "leaid": "2100210",
+    "name": "Ballard County"
+  },
+  {
+    "leaid": "2100240",
+    "name": "Barbourville Independent"
+  },
+  {
+    "leaid": "2100270",
+    "name": "Bardstown Independent"
+  },
+  {
+    "leaid": "2100300",
+    "name": "Barren County"
+  },
+  {
+    "leaid": "2100330",
+    "name": "Bath County"
+  },
+  {
+    "leaid": "2100360",
+    "name": "Beechwood Independent"
+  },
+  {
+    "leaid": "2100390",
+    "name": "Bell County"
+  },
+  {
+    "leaid": "2100420",
+    "name": "Bellevue Independent"
+  },
+  {
+    "leaid": "2100480",
+    "name": "Berea Independent"
+  },
+  {
+    "leaid": "2100510",
+    "name": "Boone County"
+  },
+  {
+    "leaid": "2100540",
+    "name": "Bourbon County"
+  },
+  {
+    "leaid": "2100570",
+    "name": "Bowling Green Independent"
+  },
+  {
+    "leaid": "2100620",
+    "name": "Boyd County"
+  },
+  {
+    "leaid": "2100630",
+    "name": "Boyle County"
+  },
+  {
+    "leaid": "2100660",
+    "name": "Bracken County"
+  },
+  {
+    "leaid": "2100690",
+    "name": "Breathitt County"
+  },
+  {
+    "leaid": "2100720",
+    "name": "Breckinridge County"
+  },
+  {
+    "leaid": "2100750",
+    "name": "Bullitt County"
+  },
+  {
+    "leaid": "2100780",
+    "name": "Burgin Independent"
+  },
+  {
+    "leaid": "2100810",
+    "name": "Butler County"
+  },
+  {
+    "leaid": "2100840",
+    "name": "Caldwell County"
+  },
+  {
+    "leaid": "2100870",
+    "name": "Calloway County"
+  },
+  {
+    "leaid": "2100900",
+    "name": "Campbell County"
+  },
+  {
+    "leaid": "2100930",
+    "name": "Campbellsville Independent"
+  },
+  {
+    "leaid": "2100960",
+    "name": "Carlisle County"
+  },
+  {
+    "leaid": "2100990",
+    "name": "Carroll County"
+  },
+  {
+    "leaid": "2101020",
+    "name": "Carter County"
+  },
+  {
+    "leaid": "2101050",
+    "name": "Casey County"
+  },
+  {
+    "leaid": "2101110",
+    "name": "Caverna Independent"
+  },
+  {
+    "leaid": "2101150",
+    "name": "Christian County"
+  },
+  {
+    "leaid": "2101200",
+    "name": "Clark County"
+  },
+  {
+    "leaid": "2101230",
+    "name": "Clay County"
+  },
+  {
+    "leaid": "2101260",
+    "name": "Clinton County"
+  },
+  {
+    "leaid": "2101290",
+    "name": "Cloverport Independent"
+  },
+  {
+    "leaid": "2101320",
+    "name": "Corbin Independent"
+  },
+  {
+    "leaid": "2101350",
+    "name": "Covington Independent"
+  },
+  {
+    "leaid": "2100290",
+    "name": "Craft Academy"
+  },
+  {
+    "leaid": "2101380",
+    "name": "Crittenden County"
+  },
+  {
+    "leaid": "2101410",
+    "name": "Cumberland County"
+  },
+  {
+    "leaid": "2101440",
+    "name": "Danville Independent"
+  },
+  {
+    "leaid": "2101470",
+    "name": "Daviess County"
+  },
+  {
+    "leaid": "2101500",
+    "name": "Dawson Springs Independent"
+  },
+  {
+    "leaid": "2101530",
+    "name": "Dayton Independent"
+  },
+  {
+    "leaid": "2101590",
+    "name": "East Bernstadt Independent"
+  },
+  {
+    "leaid": "2101620",
+    "name": "Edmonson County"
+  },
+  {
+    "leaid": "2101650",
+    "name": "Elizabethtown Independent"
+  },
+  {
+    "leaid": "2101680",
+    "name": "Elliott County"
+  },
+  {
+    "leaid": "2101710",
+    "name": "Eminence Independent"
+  },
+  {
+    "leaid": "2101740",
+    "name": "Erlanger-Elsmere Independent"
+  },
+  {
+    "leaid": "2101760",
+    "name": "Estill County"
+  },
+  {
+    "leaid": "2101800",
+    "name": "Fairview Independent"
+  },
+  {
+    "leaid": "2101860",
+    "name": "Fayette County"
+  },
+  {
+    "leaid": "2101920",
+    "name": "Fleming County"
+  },
+  {
+    "leaid": "2101950",
+    "name": "Floyd County"
+  },
+  {
+    "leaid": "2102040",
+    "name": "Fort Thomas Independent"
+  },
+  {
+    "leaid": "2101980",
+    "name": "Frankfort Independent"
+  },
+  {
+    "leaid": "2102010",
+    "name": "Franklin County"
+  },
+  {
+    "leaid": "2102100",
+    "name": "Fulton County"
+  },
+  {
+    "leaid": "2102070",
+    "name": "Fulton Independent"
+  },
+  {
+    "leaid": "2102130",
+    "name": "Gallatin County"
+  },
+  {
+    "leaid": "2102160",
+    "name": "Garrard County"
+  },
+  {
+    "leaid": "2102220",
+    "name": "Glasgow Independent"
+  },
+  {
+    "leaid": "2102250",
+    "name": "Grant County"
+  },
+  {
+    "leaid": "2102280",
+    "name": "Graves County"
+  },
+  {
+    "leaid": "2102300",
+    "name": "Grayson County"
+  },
+  {
+    "leaid": "2102340",
+    "name": "Green County"
+  },
+  {
+    "leaid": "2102400",
+    "name": "Greenup County"
+  },
+  {
+    "leaid": "2102460",
+    "name": "Hancock County"
+  },
+  {
+    "leaid": "2102490",
+    "name": "Hardin County"
+  },
+  {
+    "leaid": "2102540",
+    "name": "Harlan County"
+  },
+  {
+    "leaid": "2102520",
+    "name": "Harlan Independent"
+  },
+  {
+    "leaid": "2102580",
+    "name": "Harrison County"
+  },
+  {
+    "leaid": "2102640",
+    "name": "Hart County"
+  },
+  {
+    "leaid": "2102670",
+    "name": "Hazard Independent"
+  },
+  {
+    "leaid": "2102710",
+    "name": "Henderson County"
+  },
+  {
+    "leaid": "2102760",
+    "name": "Henry County"
+  },
+  {
+    "leaid": "2102790",
+    "name": "Hickman County"
+  },
+  {
+    "leaid": "2102860",
+    "name": "Hopkins County"
+  },
+  {
+    "leaid": "2102940",
+    "name": "Jackson County"
+  },
+  {
+    "leaid": "2102910",
+    "name": "Jackson Independent"
+  },
+  {
+    "leaid": "2102990",
+    "name": "Jefferson County"
+  },
+  {
+    "leaid": "2103000",
+    "name": "Jenkins Independent"
+  },
+  {
+    "leaid": "2103030",
+    "name": "Jessamine County"
+  },
+  {
+    "leaid": "2103060",
+    "name": "Johnson County"
+  },
+  {
+    "leaid": "2103090",
+    "name": "Kenton County"
+  },
+  {
+    "leaid": "2106001",
+    "name": "Kentucky National Guard Youth ChalleNGe Academies"
+  },
+  {
+    "leaid": "2100094",
+    "name": "Kentucky School for the Blind District"
+  },
+  {
+    "leaid": "2100095",
+    "name": "Kentucky School for the Deaf District"
+  },
+  {
+    "leaid": "2100289",
+    "name": "Kentucky Tech System"
+  },
+  {
+    "leaid": "2103120",
+    "name": "Knott County"
+  },
+  {
+    "leaid": "2103150",
+    "name": "Knox County"
+  },
+  {
+    "leaid": "2103180",
+    "name": "LaRue County"
+  },
+  {
+    "leaid": "2103210",
+    "name": "Laurel County"
+  },
+  {
+    "leaid": "2103240",
+    "name": "Lawrence County"
+  },
+  {
+    "leaid": "2103270",
+    "name": "Lee County"
+  },
+  {
+    "leaid": "2103330",
+    "name": "Leslie County"
+  },
+  {
+    "leaid": "2103360",
+    "name": "Letcher County"
+  },
+  {
+    "leaid": "2103390",
+    "name": "Lewis County"
+  },
+  {
+    "leaid": "2103480",
+    "name": "Lincoln County"
+  },
+  {
+    "leaid": "2103510",
+    "name": "Livingston County"
+  },
+  {
+    "leaid": "2103540",
+    "name": "Logan County"
+  },
+  {
+    "leaid": "2103630",
+    "name": "Ludlow Independent"
+  },
+  {
+    "leaid": "2103690",
+    "name": "Lyon County"
+  },
+  {
+    "leaid": "2103720",
+    "name": "Madison County"
+  },
+  {
+    "leaid": "2103750",
+    "name": "Magoffin County"
+  },
+  {
+    "leaid": "2103780",
+    "name": "Marion County"
+  },
+  {
+    "leaid": "2103810",
+    "name": "Marshall County"
+  },
+  {
+    "leaid": "2103840",
+    "name": "Martin County"
+  },
+  {
+    "leaid": "2103870",
+    "name": "Mason County"
+  },
+  {
+    "leaid": "2103900",
+    "name": "Mayfield Independent"
+  },
+  {
+    "leaid": "2103960",
+    "name": "McCracken County"
+  },
+  {
+    "leaid": "2103990",
+    "name": "McCreary County"
+  },
+  {
+    "leaid": "2104020",
+    "name": "McLean County"
+  },
+  {
+    "leaid": "2104050",
+    "name": "Meade County"
+  },
+  {
+    "leaid": "2104080",
+    "name": "Menifee County"
+  },
+  {
+    "leaid": "2104110",
+    "name": "Mercer County"
+  },
+  {
+    "leaid": "2104140",
+    "name": "Metcalfe County"
+  },
+  {
+    "leaid": "2104170",
+    "name": "Middlesboro Independent"
+  },
+  {
+    "leaid": "2100291",
+    "name": "Model Laboratory Schools at EKU"
+  },
+  {
+    "leaid": "2104200",
+    "name": "Monroe County"
+  },
+  {
+    "leaid": "2104250",
+    "name": "Montgomery County"
+  },
+  {
+    "leaid": "2104290",
+    "name": "Morgan County"
+  },
+  {
+    "leaid": "2100081",
+    "name": "Muhlenberg County"
+  },
+  {
+    "leaid": "2104380",
+    "name": "Murray Independent"
+  },
+  {
+    "leaid": "2104410",
+    "name": "Nelson County"
+  },
+  {
+    "leaid": "2104440",
+    "name": "Newport Independent"
+  },
+  {
+    "leaid": "2104470",
+    "name": "Nicholas County"
+  },
+  {
+    "leaid": "2104500",
+    "name": "Ohio County"
+  },
+  {
+    "leaid": "2104530",
+    "name": "Oldham County"
+  },
+  {
+    "leaid": "2104560",
+    "name": "Owen County"
+  },
+  {
+    "leaid": "2104590",
+    "name": "Owensboro Independent"
+  },
+  {
+    "leaid": "2104620",
+    "name": "Owsley County"
+  },
+  {
+    "leaid": "2104650",
+    "name": "Paducah Independent"
+  },
+  {
+    "leaid": "2104680",
+    "name": "Paintsville Independent"
+  },
+  {
+    "leaid": "2104710",
+    "name": "Paris Independent"
+  },
+  {
+    "leaid": "2104740",
+    "name": "Pendleton County"
+  },
+  {
+    "leaid": "2104770",
+    "name": "Perry County"
+  },
+  {
+    "leaid": "2104800",
+    "name": "Pike County"
+  },
+  {
+    "leaid": "2104830",
+    "name": "Pikeville Independent"
+  },
+  {
+    "leaid": "2104860",
+    "name": "Pineville Independent"
+  },
+  {
+    "leaid": "2104890",
+    "name": "Powell County"
+  },
+  {
+    "leaid": "2104950",
+    "name": "Pulaski County"
+  },
+  {
+    "leaid": "2104980",
+    "name": "Raceland-Worthington Independent"
+  },
+  {
+    "leaid": "2105040",
+    "name": "Robertson County"
+  },
+  {
+    "leaid": "2105070",
+    "name": "Rockcastle County"
+  },
+  {
+    "leaid": "2105100",
+    "name": "Rowan County"
+  },
+  {
+    "leaid": "2105160",
+    "name": "Russell County"
+  },
+  {
+    "leaid": "2105130",
+    "name": "Russell Independent"
+  },
+  {
+    "leaid": "2105190",
+    "name": "Russellville Independent"
+  },
+  {
+    "leaid": "2105220",
+    "name": "Science Hill Independent"
+  },
+  {
+    "leaid": "2105260",
+    "name": "Scott County"
+  },
+  {
+    "leaid": "2105320",
+    "name": "Shelby County"
+  },
+  {
+    "leaid": "2105400",
+    "name": "Simpson County"
+  },
+  {
+    "leaid": "2105430",
+    "name": "Somerset Independent"
+  },
+  {
+    "leaid": "2105460",
+    "name": "Southgate Independent"
+  },
+  {
+    "leaid": "2105490",
+    "name": "Spencer County"
+  },
+  {
+    "leaid": "2105520",
+    "name": "Taylor County"
+  },
+  {
+    "leaid": "2105550",
+    "name": "Todd County"
+  },
+  {
+    "leaid": "2105580",
+    "name": "Trigg County"
+  },
+  {
+    "leaid": "2105610",
+    "name": "Trimble County"
+  },
+  {
+    "leaid": "2105640",
+    "name": "Union County"
+  },
+  {
+    "leaid": "2105700",
+    "name": "Walton-Verona Independent"
+  },
+  {
+    "leaid": "2105730",
+    "name": "Warren County"
+  },
+  {
+    "leaid": "2105760",
+    "name": "Washington County"
+  },
+  {
+    "leaid": "2105790",
+    "name": "Wayne County"
+  },
+  {
+    "leaid": "2105820",
+    "name": "Webster County"
+  },
+  {
+    "leaid": "2105880",
+    "name": "Whitley County"
+  },
+  {
+    "leaid": "2105910",
+    "name": "Williamsburg Independent"
+  },
+  {
+    "leaid": "2105940",
+    "name": "Williamstown Independent"
+  },
+  {
+    "leaid": "2105970",
+    "name": "Wolfe County"
+  },
+  {
+    "leaid": "2106000",
+    "name": "Woodford County"
+  }
+]

@@ -1,0 +1,284 @@
+{
+  "description": "Kentucky governors mapped to high school graduation years (1987-2026). Graduation year N corresponds to school year (N-1)-N. Kentucky governors take office in December of odd years. For transition years, the governor who served the majority of the school year (Dec-May) is listed.",
+  "source": "https://en.wikipedia.org/wiki/List_of_governors_of_Kentucky",
+  "governors": [
+    {
+      "name": "Martha Layne Collins",
+      "party": "Democrat",
+      "term_start": "December 1983",
+      "term_end": "December 1987",
+      "number": 56
+    },
+    {
+      "name": "Wallace Wilkinson",
+      "party": "Democrat",
+      "term_start": "December 1987",
+      "term_end": "December 1991",
+      "number": 57
+    },
+    {
+      "name": "Brereton Jones",
+      "party": "Democrat",
+      "term_start": "December 1991",
+      "term_end": "December 1995",
+      "number": 58
+    },
+    {
+      "name": "Paul Patton",
+      "party": "Democrat",
+      "term_start": "December 1995",
+      "term_end": "December 2003",
+      "number": 59,
+      "note": "First governor to serve two consecutive terms under 1992 constitutional amendment"
+    },
+    {
+      "name": "Ernie Fletcher",
+      "party": "Republican",
+      "term_start": "December 2003",
+      "term_end": "December 2007",
+      "number": 60
+    },
+    {
+      "name": "Steve Beshear",
+      "party": "Democrat",
+      "term_start": "December 2007",
+      "term_end": "December 2015",
+      "number": 61
+    },
+    {
+      "name": "Matt Bevin",
+      "party": "Republican",
+      "term_start": "December 2015",
+      "term_end": "December 2019",
+      "number": 62
+    },
+    {
+      "name": "Andy Beshear",
+      "party": "Democrat",
+      "term_start": "December 2019",
+      "term_end": "December 2027",
+      "number": 63,
+      "note": "Re-elected 2023; term-limited, term expires December 2027"
+    }
+  ],
+  "by_graduation_year": {
+    "1987": {
+      "name": "Martha Layne Collins",
+      "party": "Democrat",
+      "term": "1983-1987",
+      "note": "Last full school year of Collins term"
+    },
+    "1988": {
+      "name": "Wallace Wilkinson",
+      "party": "Democrat",
+      "term": "1987-1991",
+      "note": "Inaugurated Dec 1987; served majority of 1987-88 school year"
+    },
+    "1989": {
+      "name": "Wallace Wilkinson",
+      "party": "Democrat",
+      "term": "1987-1991"
+    },
+    "1990": {
+      "name": "Wallace Wilkinson",
+      "party": "Democrat",
+      "term": "1987-1991",
+      "note": "Kentucky Education Reform Act (KERA) signed into law April 1990"
+    },
+    "1991": {
+      "name": "Wallace Wilkinson",
+      "party": "Democrat",
+      "term": "1987-1991",
+      "note": "Last full school year of Wilkinson term"
+    },
+    "1992": {
+      "name": "Brereton Jones",
+      "party": "Democrat",
+      "term": "1991-1995",
+      "note": "Inaugurated Dec 1991; served majority of 1991-92 school year"
+    },
+    "1993": {
+      "name": "Brereton Jones",
+      "party": "Democrat",
+      "term": "1991-1995"
+    },
+    "1994": {
+      "name": "Brereton Jones",
+      "party": "Democrat",
+      "term": "1991-1995"
+    },
+    "1995": {
+      "name": "Brereton Jones",
+      "party": "Democrat",
+      "term": "1991-1995",
+      "note": "Last full school year of Jones term"
+    },
+    "1996": {
+      "name": "Paul Patton",
+      "party": "Democrat",
+      "term": "1995-2003",
+      "note": "Inaugurated Dec 1995; served majority of 1995-96 school year"
+    },
+    "1997": {
+      "name": "Paul Patton",
+      "party": "Democrat",
+      "term": "1995-2003"
+    },
+    "1998": {
+      "name": "Paul Patton",
+      "party": "Democrat",
+      "term": "1995-2003"
+    },
+    "1999": {
+      "name": "Paul Patton",
+      "party": "Democrat",
+      "term": "1995-2003"
+    },
+    "2000": {
+      "name": "Paul Patton",
+      "party": "Democrat",
+      "term": "1995-2003",
+      "note": "Re-elected 1999; first KY governor to serve consecutive terms"
+    },
+    "2001": {
+      "name": "Paul Patton",
+      "party": "Democrat",
+      "term": "1995-2003"
+    },
+    "2002": {
+      "name": "Paul Patton",
+      "party": "Democrat",
+      "term": "1995-2003"
+    },
+    "2003": {
+      "name": "Paul Patton",
+      "party": "Democrat",
+      "term": "1995-2003",
+      "note": "Last full school year of Patton term"
+    },
+    "2004": {
+      "name": "Ernie Fletcher",
+      "party": "Republican",
+      "term": "2003-2007",
+      "note": "Inaugurated Dec 2003; served majority of 2003-04 school year"
+    },
+    "2005": {
+      "name": "Ernie Fletcher",
+      "party": "Republican",
+      "term": "2003-2007"
+    },
+    "2006": {
+      "name": "Ernie Fletcher",
+      "party": "Republican",
+      "term": "2003-2007"
+    },
+    "2007": {
+      "name": "Ernie Fletcher",
+      "party": "Republican",
+      "term": "2003-2007",
+      "note": "Last full school year of Fletcher term"
+    },
+    "2008": {
+      "name": "Steve Beshear",
+      "party": "Democrat",
+      "term": "2007-2015",
+      "note": "Inaugurated Dec 2007; served majority of 2007-08 school year"
+    },
+    "2009": {
+      "name": "Steve Beshear",
+      "party": "Democrat",
+      "term": "2007-2015"
+    },
+    "2010": {
+      "name": "Steve Beshear",
+      "party": "Democrat",
+      "term": "2007-2015"
+    },
+    "2011": {
+      "name": "Steve Beshear",
+      "party": "Democrat",
+      "term": "2007-2015"
+    },
+    "2012": {
+      "name": "Steve Beshear",
+      "party": "Democrat",
+      "term": "2007-2015",
+      "note": "Re-elected 2011"
+    },
+    "2013": {
+      "name": "Steve Beshear",
+      "party": "Democrat",
+      "term": "2007-2015"
+    },
+    "2014": {
+      "name": "Steve Beshear",
+      "party": "Democrat",
+      "term": "2007-2015"
+    },
+    "2015": {
+      "name": "Steve Beshear",
+      "party": "Democrat",
+      "term": "2007-2015",
+      "note": "Last full school year of Steve Beshear term"
+    },
+    "2016": {
+      "name": "Matt Bevin",
+      "party": "Republican",
+      "term": "2015-2019",
+      "note": "Inaugurated Dec 2015; served majority of 2015-16 school year"
+    },
+    "2017": {
+      "name": "Matt Bevin",
+      "party": "Republican",
+      "term": "2015-2019"
+    },
+    "2018": {
+      "name": "Matt Bevin",
+      "party": "Republican",
+      "term": "2015-2019"
+    },
+    "2019": {
+      "name": "Matt Bevin",
+      "party": "Republican",
+      "term": "2015-2019",
+      "note": "Last full school year of Bevin term"
+    },
+    "2020": {
+      "name": "Andy Beshear",
+      "party": "Democrat",
+      "term": "2019-2027",
+      "note": "Inaugurated Dec 2019; served majority of 2019-20 school year; COVID-19 pandemic"
+    },
+    "2021": {
+      "name": "Andy Beshear",
+      "party": "Democrat",
+      "term": "2019-2027"
+    },
+    "2022": {
+      "name": "Andy Beshear",
+      "party": "Democrat",
+      "term": "2019-2027"
+    },
+    "2023": {
+      "name": "Andy Beshear",
+      "party": "Democrat",
+      "term": "2019-2027"
+    },
+    "2024": {
+      "name": "Andy Beshear",
+      "party": "Democrat",
+      "term": "2019-2027",
+      "note": "Re-elected Nov 2023; second term began Dec 2023"
+    },
+    "2025": {
+      "name": "Andy Beshear",
+      "party": "Democrat",
+      "term": "2019-2027"
+    },
+    "2026": {
+      "name": "Andy Beshear",
+      "party": "Democrat",
+      "term": "2019-2027"
+    }
+  }
+}

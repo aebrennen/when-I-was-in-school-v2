@@ -1,0 +1,15 @@
+# Raw data files (large, not needed for site)
+data/raw/
+data/processed/
+
+# Incomplete downloads
+*.crdownload
+
+# OS files
+.DS_Store
+
+# Editor files
+.vscode/
+
+# Claude project files
+.claude/

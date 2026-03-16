@@ -1,0 +1,408 @@
+{
+  "metadata": {
+    "source": "NCES Digest of Education Statistics, Table 211.60; NEA Rankings & Estimates",
+    "inflation_base_year": 2024,
+    "hours_basis": 1402,
+    "notes": "US average classroom teacher salary. Gap years linearly interpolated."
+  },
+  "current_year": {
+    "school_year": "2023-2024",
+    "nominal": 72030,
+    "adjusted": 72030,
+    "hourly_rate": 51.38
+  },
+  "by_grad_year": {
+    "1970": {
+      "school_year": "1969-1970",
+      "nominal": 8626,
+      "adjusted": 68402,
+      "hourly_rate": 48.79,
+      "data_available": true
+    },
+    "1971": {
+      "school_year": "1970-1971",
+      "nominal": 9166,
+      "adjusted": 70386,
+      "hourly_rate": 50.2,
+      "data_available": true
+    },
+    "1972": {
+      "school_year": "1971-1972",
+      "nominal": 9705,
+      "adjusted": 72069,
+      "hourly_rate": 51.4,
+      "data_available": true
+    },
+    "1973": {
+      "school_year": "1972-1973",
+      "nominal": 10238,
+      "adjusted": 69939,
+      "hourly_rate": 49.89,
+      "data_available": true
+    },
+    "1974": {
+      "school_year": "1973-1974",
+      "nominal": 10770,
+      "adjusted": 65492,
+      "hourly_rate": 46.71,
+      "data_available": true
+    },
+    "1975": {
+      "school_year": "1974-1975",
+      "nominal": 11420,
+      "adjusted": 64941,
+      "hourly_rate": 46.32,
+      "data_available": true
+    },
+    "1976": {
+      "school_year": "1975-1976",
+      "nominal": 12070,
+      "adjusted": 65453,
+      "hourly_rate": 46.69,
+      "data_available": true
+    },
+    "1977": {
+      "school_year": "1976-1977",
+      "nominal": 12810,
+      "adjusted": 65103,
+      "hourly_rate": 46.44,
+      "data_available": true
+    },
+    "1978": {
+      "school_year": "1977-1978",
+      "nominal": 13550,
+      "adjusted": 63167,
+      "hourly_rate": 45.05,
+      "data_available": true
+    },
+    "1979": {
+      "school_year": "1978-1979",
+      "nominal": 14760,
+      "adjusted": 60734,
+      "hourly_rate": 43.32,
+      "data_available": true
+    },
+    "1980": {
+      "school_year": "1979-1980",
+      "nominal": 15970,
+      "adjusted": 58404,
+      "hourly_rate": 41.66,
+      "data_available": true
+    },
+    "1981": {
+      "school_year": "1980-1981",
+      "nominal": 17622,
+      "adjusted": 59166,
+      "hourly_rate": 42.2,
+      "data_available": true
+    },
+    "1982": {
+      "school_year": "1981-1982",
+      "nominal": 19274,
+      "adjusted": 62326,
+      "hourly_rate": 44.46,
+      "data_available": true
+    },
+    "1983": {
+      "school_year": "1982-1983",
+      "nominal": 20604,
+      "adjusted": 64192,
+      "hourly_rate": 45.79,
+      "data_available": true
+    },
+    "1984": {
+      "school_year": "1983-1984",
+      "nominal": 21935,
+      "adjusted": 65744,
+      "hourly_rate": 46.89,
+      "data_available": true
+    },
+    "1985": {
+      "school_year": "1984-1985",
+      "nominal": 23567,
+      "adjusted": 68050,
+      "hourly_rate": 48.54,
+      "data_available": true
+    },
+    "1986": {
+      "school_year": "1985-1986",
+      "nominal": 25199,
+      "adjusted": 71973,
+      "hourly_rate": 51.34,
+      "data_available": true
+    },
+    "1987": {
+      "school_year": "1986-1987",
+      "nominal": 26616,
+      "adjusted": 72792,
+      "hourly_rate": 51.92,
+      "data_available": true
+    },
+    "1988": {
+      "school_year": "1987-1988",
+      "nominal": 28034,
+      "adjusted": 73424,
+      "hourly_rate": 52.37,
+      "data_available": true
+    },
+    "1989": {
+      "school_year": "1988-1989",
+      "nominal": 29700,
+      "adjusted": 74333,
+      "hourly_rate": 53.02,
+      "data_available": true
+    },
+    "1990": {
+      "school_year": "1989-1990",
+      "nominal": 31367,
+      "adjusted": 73988,
+      "hourly_rate": 52.77,
+      "data_available": true
+    },
+    "1991": {
+      "school_year": "1990-1991",
+      "nominal": 32715,
+      "adjusted": 74875,
+      "hourly_rate": 53.41,
+      "data_available": true
+    },
+    "1992": {
+      "school_year": "1991-1992",
+      "nominal": 34063,
+      "adjusted": 75760,
+      "hourly_rate": 54.04,
+      "data_available": true
+    },
+    "1993": {
+      "school_year": "1992-1993",
+      "nominal": 34900,
+      "adjusted": 75545,
+      "hourly_rate": 53.88,
+      "data_available": true
+    },
+    "1994": {
+      "school_year": "1993-1994",
+      "nominal": 35737,
+      "adjusted": 75341,
+      "hourly_rate": 53.74,
+      "data_available": true
+    },
+    "1995": {
+      "school_year": "1994-1995",
+      "nominal": 36690,
+      "adjusted": 75438,
+      "hourly_rate": 53.81,
+      "data_available": true
+    },
+    "1996": {
+      "school_year": "1995-1996",
+      "nominal": 37642,
+      "adjusted": 74904,
+      "hourly_rate": 53.43,
+      "data_available": true
+    },
+    "1997": {
+      "school_year": "1996-1997",
+      "nominal": 38496,
+      "adjusted": 75321,
+      "hourly_rate": 53.72,
+      "data_available": true
+    },
+    "1998": {
+      "school_year": "1997-1998",
+      "nominal": 39350,
+      "adjusted": 75772,
+      "hourly_rate": 54.05,
+      "data_available": true
+    },
+    "1999": {
+      "school_year": "1998-1999",
+      "nominal": 40578,
+      "adjusted": 76096,
+      "hourly_rate": 54.28,
+      "data_available": true
+    },
+    "2000": {
+      "school_year": "1999-2000",
+      "nominal": 41807,
+      "adjusted": 75830,
+      "hourly_rate": 54.09,
+      "data_available": true
+    },
+    "2001": {
+      "school_year": "2000-2001",
+      "nominal": 43245,
+      "adjusted": 77240,
+      "hourly_rate": 55.09,
+      "data_available": true
+    },
+    "2002": {
+      "school_year": "2001-2002",
+      "nominal": 44683,
+      "adjusted": 77954,
+      "hourly_rate": 55.6,
+      "data_available": true
+    },
+    "2003": {
+      "school_year": "2002-2003",
+      "nominal": 45718,
+      "adjusted": 78292,
+      "hourly_rate": 55.84,
+      "data_available": true
+    },
+    "2004": {
+      "school_year": "2003-2004",
+      "nominal": 46752,
+      "adjusted": 77538,
+      "hourly_rate": 55.31,
+      "data_available": true
+    },
+    "2005": {
+      "school_year": "2004-2005",
+      "nominal": 47889,
+      "adjusted": 76800,
+      "hourly_rate": 54.78,
+      "data_available": true
+    },
+    "2006": {
+      "school_year": "2005-2006",
+      "nominal": 49026,
+      "adjusted": 76672,
+      "hourly_rate": 54.69,
+      "data_available": true
+    },
+    "2007": {
+      "school_year": "2006-2007",
+      "nominal": 50913,
+      "adjusted": 76502,
+      "hourly_rate": 54.57,
+      "data_available": true
+    },
+    "2008": {
+      "school_year": "2007-2008",
+      "nominal": 52800,
+      "adjusted": 79269,
+      "hourly_rate": 56.54,
+      "data_available": true
+    },
+    "2009": {
+      "school_year": "2008-2009",
+      "nominal": 54085,
+      "adjusted": 79045,
+      "hourly_rate": 56.38,
+      "data_available": true
+    },
+    "2010": {
+      "school_year": "2009-2010",
+      "nominal": 55370,
+      "adjusted": 79727,
+      "hourly_rate": 56.87,
+      "data_available": true
+    },
+    "2011": {
+      "school_year": "2010-2011",
+      "nominal": 55394,
+      "adjusted": 77469,
+      "hourly_rate": 55.26,
+      "data_available": true
+    },
+    "2012": {
+      "school_year": "2011-2012",
+      "nominal": 55418,
+      "adjusted": 76178,
+      "hourly_rate": 54.34,
+      "data_available": true
+    },
+    "2013": {
+      "school_year": "2012-2013",
+      "nominal": 55900,
+      "adjusted": 75700,
+      "hourly_rate": 53.99,
+      "data_available": true
+    },
+    "2014": {
+      "school_year": "2013-2014",
+      "nominal": 56383,
+      "adjusted": 75784,
+      "hourly_rate": 54.05,
+      "data_available": true
+    },
+    "2015": {
+      "school_year": "2014-2015",
+      "nominal": 57224,
+      "adjusted": 76354,
+      "hourly_rate": 54.46,
+      "data_available": true
+    },
+    "2016": {
+      "school_year": "2015-2016",
+      "nominal": 58064,
+      "adjusted": 75901,
+      "hourly_rate": 54.14,
+      "data_available": true
+    },
+    "2017": {
+      "school_year": "2016-2017",
+      "nominal": 59274,
+      "adjusted": 75883,
+      "hourly_rate": 54.12,
+      "data_available": true
+    },
+    "2018": {
+      "school_year": "2017-2018",
+      "nominal": 60483,
+      "adjusted": 75979,
+      "hourly_rate": 54.19,
+      "data_available": true
+    },
+    "2019": {
+      "school_year": "2018-2019",
+      "nominal": 62308,
+      "adjusted": 76527,
+      "hourly_rate": 54.58,
+      "data_available": true
+    },
+    "2020": {
+      "school_year": "2019-2020",
+      "nominal": 64133,
+      "adjusted": 77710,
+      "hourly_rate": 55.43,
+      "data_available": true
+    },
+    "2021": {
+      "school_year": "2020-2021",
+      "nominal": 65293,
+      "adjusted": 73912,
+      "hourly_rate": 52.72,
+      "data_available": true
+    },
+    "2022": {
+      "school_year": "2021-2022",
+      "nominal": 66397,
+      "adjusted": 70607,
+      "hourly_rate": 50.36,
+      "data_available": true
+    },
+    "2023": {
+      "school_year": "2022-2023",
+      "nominal": 69214,
+      "adjusted": 71214,
+      "hourly_rate": 50.79,
+      "data_available": true
+    },
+    "2024": {
+      "school_year": "2023-2024",
+      "nominal": 72030,
+      "adjusted": 72030,
+      "hourly_rate": 51.38,
+      "data_available": true
+    },
+    "2025": {
+      "school_year": "2024-2025",
+      "nominal": 74177,
+      "adjusted": 72241,
+      "hourly_rate": 51.53,
+      "data_available": true
+    }
+  }
+}

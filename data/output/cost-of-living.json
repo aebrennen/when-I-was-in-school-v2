@@ -1,0 +1,663 @@
+{
+  "metadata": {
+    "source": "FRED CPI sub-indices (CUSR0000SEHA, CUSR0000SETB01, CUSR0000SEHF01, CUSR0000SAF11), anchored to Kentucky costs",
+    "inflation_base_year": 2024,
+    "methodology": "National CPI indices to calculate relative price change, anchored to current Kentucky-specific dollar amounts",
+    "categories": {
+      "rent": {
+        "label": "Rent",
+        "emoji": "\ud83c\udfe0",
+        "current_annual": 12852
+      },
+      "gas": {
+        "label": "Gas",
+        "emoji": "\u26fd",
+        "current_annual": 2400
+      },
+      "utilities": {
+        "label": "Utilities",
+        "emoji": "\ud83d\udd0c",
+        "current_annual": 5580
+      },
+      "food": {
+        "label": "Groceries",
+        "emoji": "\ud83d\uded2",
+        "current_annual": 7200
+      }
+    }
+  },
+  "current_year": {
+    "salary": 53947,
+    "rent_annual": 12852,
+    "gas_annual": 2400,
+    "utilities_annual": 5580,
+    "food_annual": 7200,
+    "rent_pct": 0.2382,
+    "gas_pct": 0.0445,
+    "utilities_pct": 0.1034,
+    "food_pct": 0.1335,
+    "total_pct": 0.5196
+  },
+  "by_grad_year": {
+    "1970": {
+      "grad_year": 1970,
+      "data_available": false
+    },
+    "1971": {
+      "grad_year": 1971,
+      "data_available": false
+    },
+    "1972": {
+      "grad_year": 1972,
+      "data_available": false
+    },
+    "1973": {
+      "grad_year": 1973,
+      "data_available": false
+    },
+    "1974": {
+      "grad_year": 1974,
+      "data_available": false
+    },
+    "1975": {
+      "grad_year": 1975,
+      "data_available": false
+    },
+    "1976": {
+      "grad_year": 1976,
+      "data_available": false
+    },
+    "1977": {
+      "grad_year": 1977,
+      "data_available": false
+    },
+    "1978": {
+      "grad_year": 1978,
+      "data_available": false
+    },
+    "1979": {
+      "grad_year": 1979,
+      "data_available": false
+    },
+    "1980": {
+      "grad_year": 1980,
+      "data_available": false
+    },
+    "1981": {
+      "grad_year": 1981,
+      "data_available": false
+    },
+    "1982": {
+      "grad_year": 1982,
+      "data_available": false
+    },
+    "1983": {
+      "grad_year": 1983,
+      "data_available": false
+    },
+    "1984": {
+      "grad_year": 1984,
+      "data_available": false
+    },
+    "1985": {
+      "grad_year": 1985,
+      "data_available": false
+    },
+    "1986": {
+      "grad_year": 1986,
+      "data_available": false
+    },
+    "1987": {
+      "grad_year": 1987,
+      "data_available": false
+    },
+    "1988": {
+      "grad_year": 1988,
+      "data_available": false
+    },
+    "1989": {
+      "grad_year": 1989,
+      "data_available": false
+    },
+    "1990": {
+      "grad_year": 1990,
+      "data_available": true,
+      "rent_annual_adjusted": 10869,
+      "rent_pct": 0.1815,
+      "gas_annual_adjusted": 2418,
+      "gas_pct": 0.0404,
+      "utilities_annual_adjusted": 5971,
+      "utilities_pct": 0.0997,
+      "food_annual_adjusted": 8560,
+      "food_pct": 0.143,
+      "total_annual_adjusted": 27818,
+      "total_pct": 0.4646,
+      "salary_adjusted": 59878
+    },
+    "1991": {
+      "grad_year": 1991,
+      "data_available": true,
+      "rent_annual_adjusted": 10886,
+      "rent_pct": 0.1691,
+      "gas_annual_adjusted": 2321,
+      "gas_pct": 0.036,
+      "utilities_annual_adjusted": 5959,
+      "utilities_pct": 0.0925,
+      "food_annual_adjusted": 8451,
+      "food_pct": 0.1312,
+      "total_annual_adjusted": 27617,
+      "total_pct": 0.4289,
+      "salary_adjusted": 64395
+    },
+    "1992": {
+      "grad_year": 1992,
+      "data_available": true,
+      "rent_annual_adjusted": 10909,
+      "rent_pct": 0.1641,
+      "gas_annual_adjusted": 2221,
+      "gas_pct": 0.0334,
+      "utilities_annual_adjusted": 5871,
+      "utilities_pct": 0.0883,
+      "food_annual_adjusted": 8428,
+      "food_pct": 0.1268,
+      "total_annual_adjusted": 27429,
+      "total_pct": 0.4125,
+      "salary_adjusted": 66489
+    },
+    "1993": {
+      "grad_year": 1993,
+      "data_available": true,
+      "rent_annual_adjusted": 10939,
+      "rent_pct": 0.1673,
+      "gas_annual_adjusted": 2128,
+      "gas_pct": 0.0326,
+      "utilities_annual_adjusted": 5871,
+      "utilities_pct": 0.0898,
+      "food_annual_adjusted": 8413,
+      "food_pct": 0.1287,
+      "total_annual_adjusted": 27351,
+      "total_pct": 0.4184,
+      "salary_adjusted": 65373
+    },
+    "1994": {
+      "grad_year": 1994,
+      "data_available": true,
+      "rent_annual_adjusted": 10967,
+      "rent_pct": 0.1693,
+      "gas_annual_adjusted": 2040,
+      "gas_pct": 0.0315,
+      "utilities_annual_adjusted": 5870,
+      "utilities_pct": 0.0906,
+      "food_annual_adjusted": 8296,
+      "food_pct": 0.1281,
+      "total_annual_adjusted": 27173,
+      "total_pct": 0.4196,
+      "salary_adjusted": 64760
+    },
+    "1995": {
+      "grad_year": 1995,
+      "data_available": true,
+      "rent_annual_adjusted": 11063,
+      "rent_pct": 0.171,
+      "gas_annual_adjusted": 1970,
+      "gas_pct": 0.0305,
+      "utilities_annual_adjusted": 5837,
+      "utilities_pct": 0.0902,
+      "food_annual_adjusted": 8261,
+      "food_pct": 0.1277,
+      "total_annual_adjusted": 27131,
+      "total_pct": 0.4194,
+      "salary_adjusted": 64683
+    },
+    "1996": {
+      "grad_year": 1996,
+      "data_available": true,
+      "rent_annual_adjusted": 10943,
+      "rent_pct": 0.1718,
+      "gas_annual_adjusted": 2018,
+      "gas_pct": 0.0317,
+      "utilities_annual_adjusted": 5685,
+      "utilities_pct": 0.0893,
+      "food_annual_adjusted": 8121,
+      "food_pct": 0.1275,
+      "total_annual_adjusted": 26767,
+      "total_pct": 0.4203,
+      "salary_adjusted": 63693
+    },
+    "1997": {
+      "grad_year": 1997,
+      "data_available": true,
+      "rent_annual_adjusted": 11051,
+      "rent_pct": 0.1714,
+      "gas_annual_adjusted": 2137,
+      "gas_pct": 0.0331,
+      "utilities_annual_adjusted": 5661,
+      "utilities_pct": 0.0878,
+      "food_annual_adjusted": 8175,
+      "food_pct": 0.1268,
+      "total_annual_adjusted": 27024,
+      "total_pct": 0.4192,
+      "salary_adjusted": 64466
+    },
+    "1998": {
+      "grad_year": 1998,
+      "data_available": true,
+      "rent_annual_adjusted": 11067,
+      "rent_pct": 0.1716,
+      "gas_annual_adjusted": 2224,
+      "gas_pct": 0.0345,
+      "utilities_annual_adjusted": 5641,
+      "utilities_pct": 0.0875,
+      "food_annual_adjusted": 8139,
+      "food_pct": 0.1262,
+      "total_annual_adjusted": 27071,
+      "total_pct": 0.4198,
+      "salary_adjusted": 64490
+    },
+    "1999": {
+      "grad_year": 1999,
+      "data_available": true,
+      "rent_annual_adjusted": 11057,
+      "rent_pct": 0.1714,
+      "gas_annual_adjusted": 2283,
+      "gas_pct": 0.0354,
+      "utilities_annual_adjusted": 5493,
+      "utilities_pct": 0.0852,
+      "food_annual_adjusted": 8017,
+      "food_pct": 0.1243,
+      "total_annual_adjusted": 26850,
+      "total_pct": 0.4162,
+      "salary_adjusted": 64505
+    },
+    "2000": {
+      "grad_year": 2000,
+      "data_available": true,
+      "rent_annual_adjusted": 10910,
+      "rent_pct": 0.171,
+      "gas_annual_adjusted": 2312,
+      "gas_pct": 0.0362,
+      "utilities_annual_adjusted": 5385,
+      "utilities_pct": 0.0844,
+      "food_annual_adjusted": 7913,
+      "food_pct": 0.124,
+      "total_annual_adjusted": 26520,
+      "total_pct": 0.4157,
+      "salary_adjusted": 63797
+    },
+    "2001": {
+      "grad_year": 2001,
+      "data_available": true,
+      "rent_annual_adjusted": 11150,
+      "rent_pct": 0.1734,
+      "gas_annual_adjusted": 2481,
+      "gas_pct": 0.0386,
+      "utilities_annual_adjusted": 5619,
+      "utilities_pct": 0.0874,
+      "food_annual_adjusted": 7896,
+      "food_pct": 0.1228,
+      "total_annual_adjusted": 27146,
+      "total_pct": 0.4222,
+      "salary_adjusted": 64303
+    },
+    "2002": {
+      "grad_year": 2002,
+      "data_available": true,
+      "rent_annual_adjusted": 11237,
+      "rent_pct": 0.174,
+      "gas_annual_adjusted": 2641,
+      "gas_pct": 0.0409,
+      "utilities_annual_adjusted": 5804,
+      "utilities_pct": 0.0899,
+      "food_annual_adjusted": 7882,
+      "food_pct": 0.122,
+      "total_annual_adjusted": 27564,
+      "total_pct": 0.4268,
+      "salary_adjusted": 64585
+    },
+    "2003": {
+      "grad_year": 2003,
+      "data_available": true,
+      "rent_annual_adjusted": 11369,
+      "rent_pct": 0.1749,
+      "gas_annual_adjusted": 2779,
+      "gas_pct": 0.0428,
+      "utilities_annual_adjusted": 6007,
+      "utilities_pct": 0.0924,
+      "food_annual_adjusted": 7821,
+      "food_pct": 0.1203,
+      "total_annual_adjusted": 27976,
+      "total_pct": 0.4304,
+      "salary_adjusted": 64995
+    },
+    "2004": {
+      "grad_year": 2004,
+      "data_available": true,
+      "rent_annual_adjusted": 11422,
+      "rent_pct": 0.1756,
+      "gas_annual_adjusted": 2899,
+      "gas_pct": 0.0446,
+      "utilities_annual_adjusted": 6118,
+      "utilities_pct": 0.0941,
+      "food_annual_adjusted": 7735,
+      "food_pct": 0.1189,
+      "total_annual_adjusted": 28174,
+      "total_pct": 0.4332,
+      "salary_adjusted": 65041
+    },
+    "2005": {
+      "grad_year": 2005,
+      "data_available": true,
+      "rent_annual_adjusted": 11378,
+      "rent_pct": 0.1753,
+      "gas_annual_adjusted": 2991,
+      "gas_pct": 0.0461,
+      "utilities_annual_adjusted": 6205,
+      "utilities_pct": 0.0956,
+      "food_annual_adjusted": 7573,
+      "food_pct": 0.1167,
+      "total_annual_adjusted": 28147,
+      "total_pct": 0.4338,
+      "salary_adjusted": 64891
+    },
+    "2006": {
+      "grad_year": 2006,
+      "data_available": true,
+      "rent_annual_adjusted": 11390,
+      "rent_pct": 0.1747,
+      "gas_annual_adjusted": 3051,
+      "gas_pct": 0.0468,
+      "utilities_annual_adjusted": 6221,
+      "utilities_pct": 0.0954,
+      "food_annual_adjusted": 7598,
+      "food_pct": 0.1165,
+      "total_annual_adjusted": 28260,
+      "total_pct": 0.4334,
+      "salary_adjusted": 65204
+    },
+    "2007": {
+      "grad_year": 2007,
+      "data_available": true,
+      "rent_annual_adjusted": 11167,
+      "rent_pct": 0.174,
+      "gas_annual_adjusted": 3048,
+      "gas_pct": 0.0475,
+      "utilities_annual_adjusted": 6086,
+      "utilities_pct": 0.0948,
+      "food_annual_adjusted": 7519,
+      "food_pct": 0.1171,
+      "total_annual_adjusted": 27820,
+      "total_pct": 0.4334,
+      "salary_adjusted": 64185
+    },
+    "2008": {
+      "grad_year": 2008,
+      "data_available": true,
+      "rent_annual_adjusted": 11455,
+      "rent_pct": 0.1644,
+      "gas_annual_adjusted": 3163,
+      "gas_pct": 0.0454,
+      "utilities_annual_adjusted": 6244,
+      "utilities_pct": 0.0896,
+      "food_annual_adjusted": 7731,
+      "food_pct": 0.1109,
+      "total_annual_adjusted": 28593,
+      "total_pct": 0.4103,
+      "salary_adjusted": 69686
+    },
+    "2009": {
+      "grad_year": 2009,
+      "data_available": true,
+      "rent_annual_adjusted": 11368,
+      "rent_pct": 0.1655,
+      "gas_annual_adjusted": 3193,
+      "gas_pct": 0.0465,
+      "utilities_annual_adjusted": 6237,
+      "utilities_pct": 0.0908,
+      "food_annual_adjusted": 7739,
+      "food_pct": 0.1126,
+      "total_annual_adjusted": 28537,
+      "total_pct": 0.4154,
+      "salary_adjusted": 68701
+    },
+    "2010": {
+      "grad_year": 2010,
+      "data_available": true,
+      "rent_annual_adjusted": 11450,
+      "rent_pct": 0.167,
+      "gas_annual_adjusted": 3267,
+      "gas_pct": 0.0476,
+      "utilities_annual_adjusted": 6269,
+      "utilities_pct": 0.0914,
+      "food_annual_adjusted": 7842,
+      "food_pct": 0.1144,
+      "total_annual_adjusted": 28828,
+      "total_pct": 0.4205,
+      "salary_adjusted": 68564
+    },
+    "2011": {
+      "grad_year": 2011,
+      "data_available": true,
+      "rent_annual_adjusted": 11363,
+      "rent_pct": 0.1729,
+      "gas_annual_adjusted": 3033,
+      "gas_pct": 0.0461,
+      "utilities_annual_adjusted": 6170,
+      "utilities_pct": 0.0939,
+      "food_annual_adjusted": 7678,
+      "food_pct": 0.1168,
+      "total_annual_adjusted": 28244,
+      "total_pct": 0.4297,
+      "salary_adjusted": 65730
+    },
+    "2012": {
+      "grad_year": 2012,
+      "data_available": true,
+      "rent_annual_adjusted": 11442,
+      "rent_pct": 0.1761,
+      "gas_annual_adjusted": 2853,
+      "gas_pct": 0.0439,
+      "utilities_annual_adjusted": 6114,
+      "utilities_pct": 0.0941,
+      "food_annual_adjusted": 7613,
+      "food_pct": 0.1172,
+      "total_annual_adjusted": 28022,
+      "total_pct": 0.4313,
+      "salary_adjusted": 64972
+    },
+    "2013": {
+      "grad_year": 2013,
+      "data_available": true,
+      "rent_annual_adjusted": 11473,
+      "rent_pct": 0.1782,
+      "gas_annual_adjusted": 2705,
+      "gas_pct": 0.042,
+      "utilities_annual_adjusted": 6073,
+      "utilities_pct": 0.0943,
+      "food_annual_adjusted": 7566,
+      "food_pct": 0.1175,
+      "total_annual_adjusted": 27817,
+      "total_pct": 0.4321,
+      "salary_adjusted": 64375
+    },
+    "2014": {
+      "grad_year": 2014,
+      "data_available": true,
+      "rent_annual_adjusted": 11654,
+      "rent_pct": 0.1812,
+      "gas_annual_adjusted": 2559,
+      "gas_pct": 0.0398,
+      "utilities_annual_adjusted": 6076,
+      "utilities_pct": 0.0945,
+      "food_annual_adjusted": 7575,
+      "food_pct": 0.1178,
+      "total_annual_adjusted": 27864,
+      "total_pct": 0.4333,
+      "salary_adjusted": 64300
+    },
+    "2015": {
+      "grad_year": 2015,
+      "data_available": true,
+      "rent_annual_adjusted": 11780,
+      "rent_pct": 0.1825,
+      "gas_annual_adjusted": 2407,
+      "gas_pct": 0.0373,
+      "utilities_annual_adjusted": 6104,
+      "utilities_pct": 0.0945,
+      "food_annual_adjusted": 7584,
+      "food_pct": 0.1175,
+      "total_annual_adjusted": 27875,
+      "total_pct": 0.4318,
+      "salary_adjusted": 64560
+    },
+    "2016": {
+      "grad_year": 2016,
+      "data_available": true,
+      "rent_annual_adjusted": 11917,
+      "rent_pct": 0.1851,
+      "gas_annual_adjusted": 2346,
+      "gas_pct": 0.0364,
+      "utilities_annual_adjusted": 6004,
+      "utilities_pct": 0.0933,
+      "food_annual_adjusted": 7494,
+      "food_pct": 0.1164,
+      "total_annual_adjusted": 27761,
+      "total_pct": 0.4312,
+      "salary_adjusted": 64384
+    },
+    "2017": {
+      "grad_year": 2017,
+      "data_available": true,
+      "rent_annual_adjusted": 12051,
+      "rent_pct": 0.1907,
+      "gas_annual_adjusted": 2277,
+      "gas_pct": 0.036,
+      "utilities_annual_adjusted": 5880,
+      "utilities_pct": 0.0931,
+      "food_annual_adjusted": 7401,
+      "food_pct": 0.1171,
+      "total_annual_adjusted": 27609,
+      "total_pct": 0.437,
+      "salary_adjusted": 63179
+    },
+    "2018": {
+      "grad_year": 2018,
+      "data_available": true,
+      "rent_annual_adjusted": 12199,
+      "rent_pct": 0.1956,
+      "gas_annual_adjusted": 2215,
+      "gas_pct": 0.0355,
+      "utilities_annual_adjusted": 5769,
+      "utilities_pct": 0.0925,
+      "food_annual_adjusted": 7324,
+      "food_pct": 0.1174,
+      "total_annual_adjusted": 27507,
+      "total_pct": 0.441,
+      "salary_adjusted": 62370
+    },
+    "2019": {
+      "grad_year": 2019,
+      "data_available": true,
+      "rent_annual_adjusted": 12231,
+      "rent_pct": 0.1994,
+      "gas_annual_adjusted": 2147,
+      "gas_pct": 0.035,
+      "utilities_annual_adjusted": 5641,
+      "utilities_pct": 0.092,
+      "food_annual_adjusted": 7280,
+      "food_pct": 0.1187,
+      "total_annual_adjusted": 27299,
+      "total_pct": 0.4451,
+      "salary_adjusted": 61331
+    },
+    "2020": {
+      "grad_year": 2020,
+      "data_available": true,
+      "rent_annual_adjusted": 12439,
+      "rent_pct": 0.2041,
+      "gas_annual_adjusted": 2103,
+      "gas_pct": 0.0345,
+      "utilities_annual_adjusted": 5565,
+      "utilities_pct": 0.0913,
+      "food_annual_adjusted": 7223,
+      "food_pct": 0.1185,
+      "total_annual_adjusted": 27330,
+      "total_pct": 0.4483,
+      "salary_adjusted": 60958
+    },
+    "2021": {
+      "grad_year": 2021,
+      "data_available": true,
+      "rent_annual_adjusted": 11924,
+      "rent_pct": 0.206,
+      "gas_annual_adjusted": 2468,
+      "gas_pct": 0.0426,
+      "utilities_annual_adjusted": 5404,
+      "utilities_pct": 0.0934,
+      "food_annual_adjusted": 6957,
+      "food_pct": 0.1202,
+      "total_annual_adjusted": 26753,
+      "total_pct": 0.4623,
+      "salary_adjusted": 57870
+    },
+    "2022": {
+      "grad_year": 2022,
+      "data_available": true,
+      "rent_annual_adjusted": 11923,
+      "rent_pct": 0.2176,
+      "gas_annual_adjusted": 2945,
+      "gas_pct": 0.0537,
+      "utilities_annual_adjusted": 5722,
+      "utilities_pct": 0.1044,
+      "food_annual_adjusted": 7326,
+      "food_pct": 0.1337,
+      "total_annual_adjusted": 27916,
+      "total_pct": 0.5094,
+      "salary_adjusted": 54800
+    },
+    "2023": {
+      "grad_year": 2023,
+      "data_available": true,
+      "rent_annual_adjusted": 12530,
+      "rent_pct": 0.2305,
+      "gas_annual_adjusted": 2527,
+      "gas_pct": 0.0465,
+      "utilities_annual_adjusted": 5656,
+      "utilities_pct": 0.104,
+      "food_annual_adjusted": 7248,
+      "food_pct": 0.1333,
+      "total_annual_adjusted": 27961,
+      "total_pct": 0.5143,
+      "salary_adjusted": 54365
+    },
+    "2024": {
+      "grad_year": 2024,
+      "data_available": true,
+      "rent_annual_adjusted": 12852,
+      "rent_pct": 0.2382,
+      "gas_annual_adjusted": 2400,
+      "gas_pct": 0.0445,
+      "utilities_annual_adjusted": 5580,
+      "utilities_pct": 0.1034,
+      "food_annual_adjusted": 7200,
+      "food_pct": 0.1335,
+      "total_annual_adjusted": 28032,
+      "total_pct": 0.5196,
+      "salary_adjusted": 53947
+    },
+    "2025": {
+      "grad_year": 2025,
+      "data_available": true,
+      "rent_annual_adjusted": 12517,
+      "rent_pct": 0.2289,
+      "gas_annual_adjusted": 2337,
+      "gas_pct": 0.0427,
+      "utilities_annual_adjusted": 5434,
+      "utilities_pct": 0.0994,
+      "food_annual_adjusted": 7012,
+      "food_pct": 0.1282,
+      "total_annual_adjusted": 27300,
+      "total_pct": 0.4992,
+      "salary_adjusted": 54687
+    }
+  }
+}
