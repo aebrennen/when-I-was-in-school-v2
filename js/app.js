@@ -1,5 +1,5 @@
 /* ==============================================
-   WHEN I WAS IN SCHOOL — V2
+   WHEN I WAS IN SCHOOL — V3
    Teacher-focused advocacy tool
    ============================================== */
 
@@ -12,11 +12,14 @@
   let NATIONAL = null;
   let STATES = null;
   let COST = null;
+  let DISTRICTS = null;
+  let DISTRICT_SALARY = null;
 
   // DOM refs
   const $landing = document.getElementById('landing');
   const $results = document.getElementById('results');
   const $gradYear = document.getElementById('grad-year');
+  const $district = document.getElementById('district-select');
   const $email = document.getElementById('email-input');
   const $showMe = document.getElementById('show-me-btn');
   const $shareBtn = document.getElementById('share-btn');
@@ -41,6 +44,7 @@
   async function init() {
     populateYearDropdown();
     await loadAllData();
+    populateDistrictDropdown();
     bindEvents();
     showSessionBanner();
     handleHash();
@@ -62,13 +66,25 @@
     }
   }
 
+  function populateDistrictDropdown() {
+    if (!DISTRICTS) return;
+    DISTRICTS.forEach(d => {
+      const opt = document.createElement('option');
+      opt.value = d.leaid;
+      opt.textContent = d.name;
+      $district.appendChild(opt);
+    });
+  }
+
   async function loadAllData() {
-    const [teacher, legislator, national, states, cost] = await Promise.all([
+    const [teacher, legislator, national, states, cost, districts, districtSalary] = await Promise.all([
       fetch('data/output/teacher-salary.json').then(r => r.json()).catch(() => null),
       fetch('data/output/legislator.json').then(r => r.json()).catch(() => null),
       fetch('data/output/national-teacher-salary.json').then(r => r.json()).catch(() => null),
       fetch('data/output/state-teacher-salary.json').then(r => r.json()).catch(() => null),
       fetch('data/output/cost-of-living.json').then(r => r.json()).catch(() => null),
+      fetch('data/output/districts.json').then(r => r.json()).catch(() => null),
+      fetch('data/output/district_salary.json').then(r => r.json()).catch(() => null),
     ]);
 
     TEACHER = teacher;
@@ -76,6 +92,8 @@
     NATIONAL = national;
     STATES = states;
     COST = cost;
+    DISTRICTS = districts;
+    DISTRICT_SALARY = districtSalary;
   }
 
   function bindEvents() {
@@ -113,10 +131,14 @@
   function handleHash() {
     const hash = window.location.hash;
     const yearMatch = hash.match(/year=(\d{4})/);
+    const districtMatch = hash.match(/district=(\d+)/);
     if (yearMatch) {
       const year = parseInt(yearMatch[1], 10);
       if (year >= 1970 && year <= 2025) {
         $gradYear.value = year;
+        if (districtMatch && $district) {
+          $district.value = districtMatch[1];
+        }
         showResults(year);
       }
     }
@@ -146,6 +168,7 @@
     const body = JSON.stringify({
       email: email,
       year: year,
+      district: $district.value || '',
       timestamp: new Date().toISOString(),
     });
 
@@ -159,7 +182,10 @@
 
   // ---- Show Results ----
   function showResults(gradYear) {
-    window.location.hash = `year=${gradYear}`;
+    const districtId = $district ? $district.value : '';
+    let hashStr = `year=${gradYear}`;
+    if (districtId) hashStr += `&district=${districtId}`;
+    window.location.hash = hashStr;
 
     $landing.classList.add('hidden');
     $results.classList.remove('hidden');
@@ -172,10 +198,10 @@
 
     renderHeroStat(gradYear, tch, tchNow);
     renderDetailCards(gradYear, tch, tchNow);
+    renderBudget(gradYear, tch, tchNow, leg, legNow);
     renderNation(gradYear, tch, tchNow);
     renderNeighbors(gradYear);
-    renderCostOfLiving(gradYear);
-    renderBudget(gradYear, tch, tchNow, leg, legNow);
+    renderCostOfLiving(gradYear, tch, tchNow);
     renderMessage(gradYear, tch, tchNow);
     setupStickyBar(gradYear, tch, tchNow);
 
@@ -229,28 +255,18 @@
   }
 
   function renderDetailCards(gradYear, then, now) {
-    const $pctSticky = document.getElementById('detail-pct-sticky');
     const $cardsCol = document.getElementById('detail-cards-col');
     const $hoursNote = document.getElementById('detail-hours-note');
     const $source = document.getElementById('detail-source');
 
     if (!then.data_available) {
-      $pctSticky.innerHTML = '';
       $cardsCol.innerHTML = noDataBlock(gradYear, 'teacher salary', 1990);
       $hoursNote.textContent = '';
       $source.textContent = '';
       return;
     }
 
-    const pctChange = computePctChange(then.adjusted, now.adjusted);
-    const sign = pctChange >= 0 ? '+' : '';
-    const cls = pctChange >= 0 ? 'positive' : 'negative';
     const hours = TEACHER?.metadata?.hours_basis || 1402;
-
-    $pctSticky.innerHTML = `
-      <div class="detail-pct-value ${cls}">${sign}${pctChange}%</div>
-      <div class="detail-pct-label">change in real teacher pay since ${then.school_year}</div>
-    `;
 
     const thenHourly = then.hourly_rate != null ? then.hourly_rate : (then.adjusted / hours).toFixed(2);
     const nowHourly = now.hourly_rate != null ? now.hourly_rate : (now.adjusted / hours).toFixed(2);
@@ -282,7 +298,7 @@
     $source.textContent = then.source ? `Source: ${then.source}` : '';
   }
 
-  // ---- 5. vs. The Nation ----
+  // ---- vs. The Nation ----
   function renderNation(gradYear, kyThen, kyNow) {
     const $comp = document.getElementById('nation-comparison');
     const $narr = document.getElementById('nation-narrative');
@@ -329,11 +345,10 @@
     }
   }
 
-  // ---- 6. vs. Your Neighbors ----
+  // ---- vs. Your Neighbors ----
   function renderNeighbors(gradYear) {
     const $pills = document.getElementById('neighbor-pills');
     const $content = document.getElementById('neighbor-content');
-    const gy = String(gradYear);
 
     if (!STATES) {
       $pills.innerHTML = '';
@@ -389,7 +404,7 @@
     }).sort((a, b) => (b.salary || 0) - (a.salary || 0));
 
     let html = '<div class="neighbor-rank-list">';
-    items.forEach((item, i) => {
+    items.forEach((item) => {
       const isKy = item.state === 'KY';
       html += `
         <div class="neighbor-rank-item${isKy ? ' is-ky' : ''}">
@@ -446,11 +461,25 @@
     `;
   }
 
-  // ---- 7. What Your Pay Actually Buys ----
-  function renderCostOfLiving(gradYear) {
+  // ---- What a Teacher's Salary Actually Buys ----
+  function renderCostOfLiving(gradYear, tch, tchNow) {
+    const $salaryPct = document.getElementById('cost-salary-pct');
     const $rows = document.getElementById('cost-rows');
     const $total = document.getElementById('cost-total');
     const gy = String(gradYear);
+
+    // Salary pct change at top of section
+    const salPct = computePctChange(tch.adjusted, tchNow.adjusted);
+    if (salPct !== null) {
+      const salSign = salPct >= 0 ? '+' : '';
+      const salCls = salPct >= 0 ? 'positive' : 'negative';
+      $salaryPct.innerHTML = `
+        <div class="cost-salary-pct-value ${salCls}">${salSign}${salPct}%</div>
+        <div class="cost-salary-pct-label">statewide average salary change since you graduated</div>
+      `;
+    } else {
+      $salaryPct.innerHTML = '';
+    }
 
     if (!COST) {
       $rows.innerHTML = '';
@@ -469,37 +498,47 @@
     }
 
     const items = [
-      { key: 'rent', emoji: '\uD83C\uDFE0', label: 'Rent' },
-      { key: 'gas', emoji: '\u26FD', label: 'Gas' },
-      { key: 'utilities', emoji: '\uD83D\uDD0C', label: 'Utilities' },
-      { key: 'food', emoji: '\uD83D\uDED2', label: 'Groceries' },
+      { key: 'rent', emoji: '\uD83C\uDFE0', label: 'Rent', monthlyNow: 1071 },
+      { key: 'gas', emoji: '\u26FD', label: 'Gas', monthlyNow: 200 },
+      { key: 'utilities', emoji: '\uD83D\uDD0C', label: 'Utilities', monthlyNow: 465 },
+      { key: 'food', emoji: '\uD83D\uDED2', label: 'Groceries', monthlyNow: 600 },
     ];
 
     let html = '';
     items.forEach(item => {
+      const thenAnnual = then[item.key + '_annual_adjusted'];
+      const nowAnnual = cats[item.key]?.current_annual;
+      if (thenAnnual == null || nowAnnual == null) return;
+
+      const thenMonthly = Math.round(thenAnnual / 12);
+      const nowMonthly = Math.round(nowAnnual / 12);
+      const itemPct = computePctChange(thenAnnual, nowAnnual);
+      const itemSign = itemPct !== null ? (itemPct >= 0 ? '+' : '') : '';
+      const itemCls = itemPct !== null ? (itemPct >= 0 ? 'negative' : 'positive') : '';
+
       const thenPct = then[item.key + '_pct'];
       const nowPct = now[item.key + '_pct'];
-      if (thenPct == null || nowPct == null) return;
-
-      const thenWidth = Math.min(Math.round(thenPct * 100), 100);
-      const nowWidth = Math.min(Math.round(nowPct * 100), 100);
+      const thenWidth = thenPct != null ? Math.min(Math.round(thenPct * 100), 100) : 0;
+      const nowWidth = nowPct != null ? Math.min(Math.round(nowPct * 100), 100) : 0;
 
       html += `
         <div class="cost-row">
           <span class="cost-emoji">${item.emoji}</span>
           <div class="cost-row-content">
             <div class="cost-row-label">${item.label}</div>
+            <div class="cost-item-amounts">$${thenMonthly}/mo \u2192 $${nowMonthly}/mo</div>
+            <div class="cost-item-pct ${itemCls}">${itemPct !== null ? itemSign + itemPct + '%' : ''}</div>
             <div class="cost-bars">
               <div class="cost-bar-group">
-                <div class="cost-bar-label">THEN</div>
+                <div class="cost-bar-label">THEN (% of salary)</div>
                 <div class="cost-bar-track">
-                  <div class="cost-bar-fill then-bar" style="width:${thenWidth}%">${Math.round(thenPct * 100)}%</div>
+                  <div class="cost-bar-fill then-bar" style="width:${thenWidth}%">${thenPct != null ? Math.round(thenPct * 100) + '%' : ''}</div>
                 </div>
               </div>
               <div class="cost-bar-group">
-                <div class="cost-bar-label">NOW</div>
+                <div class="cost-bar-label">NOW (% of salary)</div>
                 <div class="cost-bar-track">
-                  <div class="cost-bar-fill now-bar" style="width:${nowWidth}%">${Math.round(nowPct * 100)}%</div>
+                  <div class="cost-bar-fill now-bar" style="width:${nowWidth}%">${nowPct != null ? Math.round(nowPct * 100) + '%' : ''}</div>
                 </div>
               </div>
             </div>
@@ -519,7 +558,7 @@
     }
   }
 
-  // ---- 8. Who Sets The Budget? ----
+  // ---- Who Sets The Budget? ----
   function renderBudget(gradYear, tch, tchNow, leg, legNow) {
     const $intro = document.getElementById('budget-intro');
     const $comp = document.getElementById('budget-comparison');
@@ -792,5 +831,5 @@
   }
 
   // ---- Go ----
-  init();
+  init().catch(err => console.error('Init failed:', err));
 })();

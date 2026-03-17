@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Oswald:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/styles.css?v=7">
+  <link rel="stylesheet" href="css/styles.css?v=8">
 </head>
 <body>
 
@@ -49,7 +49,7 @@
     </header>
 
     <div class="landing-hero">
-      <h1 class="hero-title">WHEN I WAS<br>IN SCHOOL</h1>
+      <h1 class="hero-title">&ldquo;WHEN I WAS<br>IN SCHOOL&hellip;&rdquo;</h1>
       <p class="hero-tagline">A lot has changed since you walked the halls.<br>Let's find out how much.</p>
 
       <div class="year-input-group">
@@ -58,7 +58,12 @@
           <option value="" disabled selected>Select year</option>
         </select>
 
-        <label for="email-input" class="year-label">Your email <span class="optional-tag">(to stay connected)</span></label>
+        <label for="district-select" class="year-label">What district? <span class="optional-tag">(optional)</span></label>
+        <select id="district-select" class="year-select">
+          <option value="" selected>Statewide average</option>
+        </select>
+
+        <label for="email-input" class="year-label">Your email <span class="optional-tag">(optional — to stay connected)</span></label>
         <input type="email" id="email-input" class="year-input" placeholder="you@example.com">
 
         <button id="show-me-btn" class="btn-primary" disabled>SHOW ME</button>
@@ -77,7 +82,7 @@
   <!-- ============================================ -->
   <div id="results" class="hidden">
 
-    <!-- 3. Hero Stat -->
+    <!-- 1. Hero Stat -->
     <section class="section section-hero-stat" id="section-hero-stat">
       <div class="section-inner">
         <p class="hero-stat-intro" id="hero-stat-intro"></p>
@@ -87,19 +92,26 @@
       </div>
     </section>
 
-    <!-- 4. Then vs Now Detail Cards -->
+    <!-- 2. Then vs Now Detail Cards (side by side, no duplicate pct) -->
     <section class="section section-detail-cards reveal" id="section-detail-cards">
       <div class="section-inner">
-        <div class="detail-layout" id="detail-layout">
-          <div class="detail-pct-sticky" id="detail-pct-sticky"></div>
-          <div class="detail-cards-col" id="detail-cards-col"></div>
-        </div>
+        <div class="detail-cards-row" id="detail-cards-col"></div>
         <p class="data-note" id="detail-hours-note"></p>
         <div class="data-source" id="detail-source"></div>
       </div>
     </section>
 
-    <!-- 5. vs. The Nation -->
+    <!-- 3. Who Sets The Budget? (moved up) -->
+    <section class="section section-budget reveal" id="section-budget">
+      <div class="section-inner">
+        <h2 class="section-title">WHO SETS THE BUDGET?</h2>
+        <p class="budget-intro" id="budget-intro"></p>
+        <div class="budget-comparison" id="budget-comparison"></div>
+        <p class="budget-narrative" id="budget-narrative"></p>
+      </div>
+    </section>
+
+    <!-- 4. vs. The Nation -->
     <section class="section section-nation reveal" id="section-nation">
       <div class="section-inner">
         <h2 class="section-title">HOW KENTUCKY COMPARES</h2>
@@ -110,7 +122,7 @@
       </div>
     </section>
 
-    <!-- 6. vs. Your Neighbors -->
+    <!-- 5. vs. Your Neighbors -->
     <section class="section section-neighbors reveal" id="section-neighbors">
       <div class="section-inner">
         <h2 class="section-title">YOUR NEIGHBORS</h2>
@@ -121,36 +133,38 @@
       </div>
     </section>
 
-    <!-- 7. What Your Pay Actually Buys -->
+    <!-- 6. What a Teacher's Salary Actually Buys -->
     <section class="section section-cost reveal" id="section-cost">
       <div class="section-inner">
-        <h2 class="section-title">WHAT YOUR PAY ACTUALLY BUYS</h2>
-        <p class="section-subtitle-editorial">A teacher&rsquo;s salary, measured in real life</p>
+        <h2 class="section-title">WHAT A TEACHER&rsquo;S SALARY ACTUALLY BUYS</h2>
+        <p class="section-subtitle-editorial">Kentucky costs, real dollars</p>
+        <div class="cost-salary-pct" id="cost-salary-pct"></div>
         <div class="cost-rows" id="cost-rows"></div>
         <p class="cost-total" id="cost-total"></p>
         <div class="data-source">Source: FRED CPI sub-indices, anchored to Kentucky costs</div>
       </div>
     </section>
 
-    <!-- 8. Who Sets The Budget? (Legislator compact) -->
-    <section class="section section-budget reveal" id="section-budget">
+    <!-- 7. Proposals for Teacher Pay -->
+    <section class="section section-proposals reveal" id="section-proposals">
       <div class="section-inner">
-        <h2 class="section-title">WHO SETS THE BUDGET?</h2>
-        <p class="budget-intro" id="budget-intro"></p>
-        <div class="budget-comparison" id="budget-comparison"></div>
-        <p class="budget-narrative" id="budget-narrative"></p>
+        <h2 class="section-title">PROPOSALS TO INCREASE TEACHER PAY THIS SESSION</h2>
+        <p class="section-subtitle-editorial">2026 Kentucky General Assembly</p>
+        <div class="proposals-number">0</div>
+        <p class="proposals-narrative">Zero proposals have been introduced in the current legislative session to increase teacher pay in Kentucky.</p>
       </div>
     </section>
 
-    <!-- 9. CTA Section -->
+    <!-- 8. CTA Section -->
     <section class="section section-cta reveal" id="section-cta">
       <div class="section-inner">
         <h2 class="cta-heading">THINK THIS SHOULD CHANGE?</h2>
-        <p class="cta-sub">The Kentucky Student Voice Team is suing the state for adequate education funding. You can help.</p>
+        <p class="cta-sub">The <a href="https://www.kystudentvoice.com" target="_blank" rel="noopener" class="cta-ksvt-link">Kentucky Student Voice Team</a> is suing the state for adequate education funding. You can help.</p>
         <div class="cta-buttons">
           <button id="share-btn" class="btn-share">SHARE YOUR RESULTS</button>
           <a href="https://bgcf.givingfuel.com/kentucky-student-voice-team-fund" target="_blank" rel="noopener" class="btn-donate">SUPPORT THE FIGHT</a>
           <a href="https://apps.legislature.ky.gov/findyourlegislator/findyourlegislator.html" target="_blank" rel="noopener" class="btn-legislator">CONTACT YOUR LEGISLATOR</a>
+          <a href="#" id="btn-resources" class="btn-resources">RESOURCES</a>
         </div>
 
         <div class="message-template" id="message-template">
@@ -179,6 +193,14 @@
       </div>
     </section>
 
+    <!-- Bug Report -->
+    <section class="section section-bug-report" id="section-bug-report">
+      <div class="section-inner" style="text-align:center;">
+        <p class="bug-report-text">Found something that doesn&rsquo;t look right?</p>
+        <a id="bug-report-btn" class="btn-bug-report" href="mailto:info@ksvt.org?subject=Bug%20Report%20%E2%80%93%20When%20I%20Was%20in%20School&amp;body=Hi%20KSVT%2C%0A%0AI%20was%20using%20the%20%E2%80%9CWhen%20I%20Was%20in%20School%E2%80%9D%20tool%20and%20encountered%20a%20bug.%0A%0ADescribe%20the%20issue%3A%0A%0A%0AThank%20you!">REPORT A BUG</a>
+      </div>
+    </section>
+
   </div>
 
   <!-- Sticky share bar (appears on scroll past hero) -->
@@ -189,6 +211,6 @@
   </div>
 
   <script src="js/html2canvas.min.js"></script>
-  <script src="js/app.js?v=7"></script>
+  <script src="js/app.js?v=9"></script>
 </body>
 </html>

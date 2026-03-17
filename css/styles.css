@@ -260,7 +260,7 @@ a:hover { color: var(--navy); }
   font-weight: 700;
   font-size: clamp(5rem, 18vw, 10rem);
   line-height: 1;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 .hero-stat-number.negative { color: var(--orange); }
 .hero-stat-number.positive { color: var(--green); }
@@ -294,42 +294,18 @@ a:hover { color: var(--navy); }
   padding: 4rem 1.5rem;
 }
 
-/* Two-column layout: sticky pct on left, cards on right */
-.detail-layout {
+/* Side-by-side cards layout */
+.detail-cards-row {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
-@media (min-width: 768px) {
-  .detail-layout {
+@media (min-width: 600px) {
+  .detail-cards-row {
     grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: start;
+    gap: 1.5rem;
   }
-  .detail-pct-sticky {
-    position: sticky;
-    top: 2rem;
-  }
-}
-
-.detail-pct-sticky {
-  text-align: center;
-}
-.detail-pct-value {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: clamp(3.5rem, 10vw, 5rem);
-  line-height: 1;
-  margin-bottom: 0.5rem;
-}
-.detail-pct-value.positive { color: var(--green); }
-.detail-pct-value.negative { color: var(--orange); }
-.detail-pct-label {
-  font-size: 0.95rem;
-  color: var(--gray-muted);
-  max-width: 280px;
-  margin: 0 auto;
 }
 
 /* Then/Now cards */
@@ -860,6 +836,7 @@ a:hover { color: var(--navy); }
 }
 
 .budget-narrative {
+  font-family: var(--font-body);
   font-size: 1rem;
   color: var(--navy);
   line-height: 1.7;
@@ -1098,7 +1075,7 @@ a:hover { color: var(--navy); }
   .cta-buttons {
     width: 100%;
   }
-  .btn-share, .btn-donate, .btn-legislator {
+  .btn-share, .btn-donate, .btn-legislator, .btn-resources {
     min-width: unset;
     width: 100%;
   }
@@ -1113,6 +1090,132 @@ a:hover { color: var(--navy); }
     flex-wrap: wrap;
     justify-content: center;
   }
+}
+
+/* ==============================================
+   COST SECTION — Salary pct header
+   ============================================== */
+.cost-salary-pct {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.cost-salary-pct-value {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(3rem, 9vw, 4.5rem);
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+.cost-salary-pct-value.positive { color: var(--green); }
+.cost-salary-pct-value.negative { color: var(--orange); }
+.cost-salary-pct-label {
+  font-size: 0.9rem;
+  color: var(--gray-muted);
+}
+.cost-item-pct {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+.cost-item-pct.positive { color: var(--green); }
+.cost-item-pct.negative { color: var(--orange); }
+.cost-item-amounts {
+  font-size: 0.8rem;
+  color: var(--gray-muted);
+  margin-top: 0.15rem;
+}
+
+/* ==============================================
+   PROPOSALS SECTION
+   ============================================== */
+.section-proposals {
+  background: var(--white);
+  color: var(--navy);
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+.proposals-number {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(5rem, 18vw, 10rem);
+  line-height: 1;
+  color: var(--orange);
+  margin-bottom: 1rem;
+}
+.proposals-narrative {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--gray-muted);
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ==============================================
+   CTA EXTRAS
+   ============================================== */
+.cta-ksvt-link {
+  color: var(--navy);
+  font-weight: 600;
+}
+.cta-ksvt-link:hover {
+  color: var(--blue);
+}
+.btn-resources {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  text-align: center;
+  min-width: 280px;
+  text-decoration: none;
+  background: var(--white);
+  color: var(--navy);
+  border: 3px solid var(--navy);
+}
+.btn-resources:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(32, 44, 89, 0.3);
+}
+
+/* ==============================================
+   BUG REPORT
+   ============================================== */
+.section-bug-report {
+  background: #f5f5fa;
+  color: var(--navy);
+  padding: 2rem 1.5rem;
+}
+.bug-report-text {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--gray-muted);
+  margin-bottom: 0.75rem;
+}
+.btn-bug-report {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  border: 2px solid var(--gray-muted);
+  color: var(--gray-muted);
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+}
+.btn-bug-report:hover {
+  border-color: var(--navy);
+  color: var(--navy);
 }
 
 /* ==============================================
